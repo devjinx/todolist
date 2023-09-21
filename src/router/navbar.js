@@ -37,7 +37,7 @@ function Navbar() {
         <header className="header">
             <div className="header__content">
                 <Link to="/" className="header__content__logo">
-                    Navbar
+                    To Do List By Devjinx
                 </Link>
                 <nav
                     className={`header__content__nav ${menuOpen && size.width < 768 ? "isMenu" : ""}`}
@@ -46,16 +46,6 @@ function Navbar() {
                         <li>
                             <Link to="/">Home</Link>
                         </li>
-                        <li>
-                            <Link to="/profile">Profile</Link>
-                        </li>
-                        <li>
-                            <Link to="/Works">Browse Works</Link>
-                        </li>
-                        <li>
-                            <Link to="/help">Help</Link>
-                        </li>
-
                         <Link to="/register">
                             <button className="btn">Register</button>
                         </Link>
