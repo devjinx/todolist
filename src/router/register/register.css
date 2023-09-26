@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap');
+
+.login-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    /* Center the buttons horizontally */
+    align-items: center;
+    margin-top: 20px;
+    /* Add margin to space the buttons from the form elements */
+}
+
+/* ... Previous CSS rules ... */
+
+.register-button {
+    margin-left: auto;
+    /* Pushes the Register button to the right */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.show-password-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-button,
+.register-button,
+.reset-password-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.register-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.reset-password-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Style for the buttons on hover */
+.login-button:hover,
+.register-button:hover,
+.reset-password-button:hover {
+    opacity: 0.9;
+}
